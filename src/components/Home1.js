@@ -11,7 +11,7 @@ function Home1() {
           <h1>HAI FRIENDS!</h1>
           <h1 class="text-danger">I'M Ramachandra Rao
         </h1>
-        <h3 class="text-light mt-5">
+        <h3 class="text-danger mt-5">
         <Typewriter
             options={{
               strings: ["Web Developer","Data Analyst","Competative Coder"],
