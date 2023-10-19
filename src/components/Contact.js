@@ -14,7 +14,7 @@ function Contact() {
         <h1 className="text-danger px-2">Details</h1>
       </div>
 
-      <div className="bg-warning container my-3">
+      <div className=" container my-3">
         <div className="d-flex justify-content-left text-light p-1">
           <FontAwesomeIcon icon={faEnvelope} size="2x" className="px-2" />
           <p className="fs-4">moningiramachandrarao@gmail.com</p>
