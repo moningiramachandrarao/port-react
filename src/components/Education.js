@@ -1,7 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJava, faPython, faHtml5, faBootstrap, faPhp, faReact, faCss3, faJs } from '@fortawesome/free-brands-svg-icons';
-import './style.css'; 
+import {
+  faJava,
+  faPython,
+  faHtml5,
+  faBootstrap,
+  faPhp,
+  faReact,
+  faCss3,
+  faJs
+} from '@fortawesome/free-brands-svg-icons';
+import './style.css';
 
 function Education() {
   return (
@@ -36,37 +45,38 @@ function Education() {
           <h1 className="text-dark">My</h1>
           <h1 className="text-light mx-2">Skills</h1>
         </div>
-        <div className="row mx-5">
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faJava} size="7x" className="responsive-icon" />
+        <div className="row">
+      
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faJava} size="4x" />
             <h4>Java</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faPython} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faPython} size="5x" />
             <h4>Python</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faHtml5} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faHtml5} size="5x" />
             <h4>HTML</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faBootstrap} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faBootstrap} size="5x" />
             <h4>Bootstrap</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faPhp} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faPhp} size="5x" />
             <h4>PHP</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faReact} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faReact} size="5x" />
             <h4>React</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faCss3} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faCss3} size="5x" />
             <h4>CSS</h4>
           </div>
-          <div className="col-3 text-center">
-            <FontAwesomeIcon icon={faJs} size="7x" className="responsive-icon" />
+          <div className="col-6 col-md-3 text-center">
+            <FontAwesomeIcon icon={faJs} size="5x" />
             <h4>JavaScript</h4>
           </div>
         </div>

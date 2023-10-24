@@ -6,7 +6,7 @@ function Home1() {
   return (
     <div>
       <div className="my-3 d-flex">
-        <img src={rcImage} alt="Rc" style={{ maxHeight: "80vh", width: "30%" }} />
+        <img src={rcImage} alt="Rc" style={{ maxHeight: "90vh", width: "30%" }} />
         <div className="text-center text-light" style={{ marginTop: "10%", marginLeft: "15%" }}>
           <h1>HAI FRIENDS!</h1>
           <h1 class="text-danger">I'M Ramachandra Rao
