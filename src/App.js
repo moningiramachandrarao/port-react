@@ -9,7 +9,7 @@ import Home1 from './components/Home1';
 
 function App() {
   return (
-    <div style={{ backgroundColor: 'black', minHeight: '100vh' }}>
+    <div style={{ backgroundColor: 'black', minHeight: '100vh',minWidth:'100%' }}>
       <div className="container">
         <HashRouter>
           <Home/>
