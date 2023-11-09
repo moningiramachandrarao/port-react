@@ -17,15 +17,15 @@ function Contact() {
       <div className="container my-3">
         <div className="d-flex justify-content-left text-light p-1">
           <FontAwesomeIcon icon={faEnvelope} size="2x" className='px-2' />
-          <p className="fs-5" style={{ color: 'white' }}>moningiramachandrarao@gmail.com</p>
+          <p className="fs-5" style={{ color: 'white' }}>srisailpubrahmaji@gmail.com</p>
         </div>
         <div className="d-flex justify-content-left text-light">
           <FontAwesomeIcon icon={faPhone} size="2x" className='px-2' />
-          <p className="fs-5" style={{ color: 'white' }}>9515278387</p>
+          <p className="fs-5" style={{ color: 'white' }}>6300242470</p>
         </div>
         <div className="d-flex justify-content-left text-light">
           <FontAwesomeIcon icon={faHome} size="2x" className='px-2' />
-          <p className="fs-5" style={{ color: 'white' }}>Hiramandalam, Srikakulam District</p>
+          <p className="fs-5" style={{ color: 'white' }}>Artisans Colony,Etikoppka Vizag</p>
         </div>
       </div>
     </div>
